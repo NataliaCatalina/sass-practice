@@ -1,0 +1,36 @@
+@import 'variables';//@ use works with variables
+@import 'mixins';//@import works with mixins as of Aug 2020
+@import 'images';
+@import 'lists';
+//@use 'variables'; //sass is moving to @use instead of @import
+//if any project is done using @import you will need a migrator//
+//check documentation
+
+//$back-color: lightgreen; //locally defined variable
+
+body{
+  // background: $back-color;
+  // color : $color;
+}
+
+h1{
+  background: #9FBF8C;
+}
+
+button {
+  @include dimension(100px, 50px, 3px);
+  @extend myColors;
+}
+
+// $color comes from variables
+p {
+  @include myPara(50%,$color);
+  margin: $margin /2; //operators * for multiplication, / for division
+}
+
+//inheritance
+
+myColors{
+  background: $back-color;
+  color : $color;
+}

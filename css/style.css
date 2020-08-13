@@ -1,0 +1,46 @@
+my-image, .covid-img {
+  width: 300px;
+  height: auto;
+  margin: 25px; }
+
+.covid-img {
+  border: 5px solid #D4CBC3; }
+
+.covid-img:hover {
+  padding: 20px; }
+
+nav {
+  background: #D4CBC3;
+  height: 100px; }
+  nav ul {
+    margin: 40px auto;
+    border: 1px solid red;
+    height: 40px;
+    padding: 40px; }
+    nav ul li {
+      padding: 10px;
+      list-style: none;
+      display: inline;
+      margin: 40px 5%;
+      background: white; }
+      nav ul li a:link {
+        color: black; }
+
+h1 {
+  background: #9FBF8C; }
+
+button {
+  width: 100px;
+  height: 50px;
+  letter-spacing: 3px; }
+
+p {
+  width: 50%;
+  color: #787A40;
+  margin: 25px; }
+
+myColors, button {
+  background: #D4CBC3;
+  color: #787A40; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,48 @@
+// css way of styling
+// nav{
+//   background: $back-color;
+//   height: 100px;
+// }
+//
+// nav ul{
+//   margin:40px auto;
+//   border:1px solid red;
+//   height: 40px;
+//   padding:40px;
+// }
+//
+// nav ul li{
+//   padding: 10px;
+//   list-style: none;
+//   display:inline;
+//   margin: 40px 5%;
+//   background: white;
+// }
+//
+// nav ul li a:link{
+//   color: black;
+// }
+
+// sass nesting
+nav
+{
+  background: $back-color;
+  height: 100px;
+  ul{
+    margin:40px auto;
+    border:1px solid red;
+    height: 40px;
+    padding:40px;
+    li{
+      padding: 10px;
+      list-style: none;
+      display:inline;
+      margin: 40px 5%;
+      background: white;
+      a:link{
+        color: black;
+      }
+    }
+  }
+
+}

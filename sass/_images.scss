@@ -1,0 +1,15 @@
+my-image{
+  width: 300px;
+  height:auto;
+  margin: 25px;
+}
+
+.covid-img{
+  @extend my-image; //inherited
+  border: 5px solid $back-color;
+}
+
+.covid-img:hover{
+  padding: 20px;
+
+}

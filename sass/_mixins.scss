@@ -1,0 +1,11 @@
+//reusable code
+@mixin dimension($myWidth, $h, $ls){
+  width: $myWidth;
+  height: $h;
+  letter-spacing: $ls
+}
+
+@mixin myPara($width,$c){
+  width: $width;
+  color: $c;
+}
